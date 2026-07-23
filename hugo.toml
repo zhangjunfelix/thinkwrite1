@@ -1,4 +1,3 @@
-```toml
 baseURL = "https://zhangjunfelix.github.io/thinkwrite1/"
 languageCode = "en-us"
 title = "Critical Thinking & English Writing I"
@@ -124,4 +123,3 @@ copyright = "Zhang Jun"
       unsafe = true
 
 ignoreLogs = ["warning-goldmark-raw-html"]
-```
