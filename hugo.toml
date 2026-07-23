@@ -1,122 +1,118 @@
-baseURL = "https://zjpsycholin.github.io/thinkwrite1/"
+```toml
+baseURL = "https://zhangjunfelix.github.io/thinkwrite1/"
 languageCode = "en-us"
 title = "Critical Thinking & English Writing I"
 copyright = "Zhang Jun"
 
 [params]
-  mode    = "auto"     # light/dark/auto
+  mode = "auto" # light/dark/auto
   subtitle = "Welcome to Critical Thinking & English Writing I"
   mathjax = false
-  katex   = false
-  useCDN  = false
-
+  katex = false
+  useCDN = false
   customCSS = ["css/custom.css"]
 
+# Top navigation
 
-# Top nav
 [[menu.main]]
   name = "Home"
-  url  = "/"
+  pageRef = "/"
   weight = 1
 
 [[menu.main]]
   name = "Syllabus"
-  url  = "/syllabus/"
+  pageRef = "/syllabus"
   weight = 2
 
 [[menu.main]]
-  name = "Intro Description"
-  url  = "/introdescription/"
+  name = "Introduction to Description"
+  pageRef = "/introdescription"
   weight = 3
 
 [[menu.main]]
   name = "Show, Don't Tell"
-  url  = "/shownottell/"
+  pageRef = "/shownottell"
   weight = 4
 
 [[menu.main]]
   name = "Sensory Imagery & Precision"
-  url  = "/sensoryimagery/"
+  pageRef = "/sensoryimagery"
   weight = 5
 
 [[menu.main]]
   name = "Person Description"
-  url  = "/persondescription/"
+  pageRef = "/persondescription"
   weight = 6
 
 [[menu.main]]
   name = "Place Description"
-  url  = "/placedescription/"
+  pageRef = "/placedescription"
   weight = 7
-
 
 [[menu.main]]
   name = "Organization & Coherence"
-  url  = "/organizationcoherence/"
+  pageRef = "/organizationcoherence"
   weight = 8
 
 [[menu.main]]
   name = "Revision & Submission"
-  url  = "/revisionsubmission/"
+  pageRef = "/revisionsubmission"
   weight = 9
 
 [[menu.main]]
   name = "Introduction to Narration"
-  url  = "/intronarration/"
+  pageRef = "/intronarration"
   weight = 10
 
 [[menu.main]]
-  name = "Memior Project"
-  url  = "/memoirproject/"
+  name = "Memoir Project"
+  pageRef = "/memoirproject"
   weight = 11
 
-
 [[menu.main]]
-  name = "Memoir part 1"
-  url  = "/memoir1/"
+  name = "Memoir Part 1"
+  pageRef = "/memoir1"
   weight = 12
 
 [[menu.main]]
-  name = "Memoir part 2"
-  url  = "/memoir2/"
+  name = "Memoir Part 2"
+  pageRef = "/memoir2"
   weight = 13
 
 [[menu.main]]
   name = "Story Elements"
-  url  = "/storyelements/"
+  pageRef = "/storyelements"
   weight = 14
 
 [[menu.main]]
   name = "Plot Structure"
-  url  = "/plot/"
+  pageRef = "/plot"
   weight = 15
 
 [[menu.main]]
   name = "Point of View & Voice"
-  url  = "/pov/"
+  pageRef = "/pov"
   weight = 16
 
 [[menu.main]]
-  name = "Scene vs Summary"
-  url  = "/scene/"
+  name = "Scene vs. Summary"
+  pageRef = "/scene"
   weight = 17
 
 [[menu.main]]
   name = "Dialogue & Character"
-  url  = "/dialogue/"
+  pageRef = "/dialogue"
   weight = 18
 
 [[menu.main]]
   name = "Tension & Emotional Impact"
-  url  = "/tension/"
+  pageRef = "/tension"
   weight = 19
 
 [[menu.main]]
-  name = "Personal Narrative vs Fiction"
-  url  = "/personalnarrativefiction/"
+  name = "Personal Narrative vs. Fiction"
+  pageRef = "/personalnarrativefiction"
   weight = 20
-
-
 
 [module]
   [[module.imports]]
@@ -126,8 +122,6 @@ copyright = "Zhang Jun"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      
-# You can also silence the log if you like:
-ignoreLogs = ['warning-goldmark-raw-html']
 
-
+ignoreLogs = ["warning-goldmark-raw-html"]
+```
