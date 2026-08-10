@@ -23,7 +23,7 @@ weight: 2
 
 ## 📚 Materials
 
-- Course Website (https://zjpsycholin.github.io/thinkwrite1/)
+- Course Website (https://zhangjunfelix.github.io/thinkwrite1/)
 - Lecture slides
 - Handouts
 - Readings
